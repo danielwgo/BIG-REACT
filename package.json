@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Running Commit Lint tests...\"",
     "lint": "eslint --ext .ts,.js,.jsx,.tsx --fix --quiet ./packages",
     "prepare": "husky"
   },
